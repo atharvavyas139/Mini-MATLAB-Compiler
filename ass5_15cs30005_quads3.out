@@ -1,0 +1,245 @@
+Symbol Table: Global                             
+parent:        null
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+printInt        int                                                                         4       0       printInt
+printStr        int                                                                         4       4       printStr
+readInt         int                                                                         4       8       readInt
+find_sum_row    int                                                                         4       12      find_sum_row
+main            int                                                                         4       16      main
+
+Symbol Table: printInt                           
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+num             int                                                                         4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: printStr                           
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+c               pointer(char)                                                               4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: readInt                            
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+eP              pointer(int)                                                                4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: find_sum_row                       
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+r               int                                                                         4       0       null
+retVal          int                                                                         4       4       null
+i               int                                 0                                       4       8       null
+t01             int                                 0                                       4       12      null
+sum             int                                 0                                       4       16      null
+t02             int                                 0                                       4       20      null
+fmat            matrix(3, 3,double)                 {1,2,3;4,5,6;7,8,9}                     80      24      null
+t03             int                                 3                                       4       104     null
+t04             int                                 3                                       4       108     null
+t5              matrix(3, 3,double)                 {1,2,3;4,5,6;7,8,9}                     80      112     null
+t06             int                                                                         4       192     null
+t07             int                                                                         4       196     null
+t08             int                                                                         4       200     null
+t09             int                                                                         4       204     null
+t10             int                                                                         4       208     null
+t11             int                                                                         4       212     null
+t12             int                                                                         4       216     null
+t13             int                                                                         4       220     null
+t14             int                                                                         4       224     null
+t15             int                                 0                                       4       228     null
+t16             int                                                                         4       232     null
+t17             int                                 3                                       4       236     null
+t18             int                                                                         4       240     null
+t19             int                                                                         4       244     null
+t20             int                                                                         4       248     null
+t21             int                                                                         4       252     null
+t22             int                                                                         4       256     null
+t23             int                                                                         4       260     null
+t24             int                                                                         4       264     null
+t25             int                                                                         4       268     null
+t26             int                                                                         4       272     null
+t27             int                                                                         4       276     null
+t28             int                                                                         4       280     null
+t29             int                                                                         4       284     null
+t30             int                                                                         4       288     null
+
+Symbol Table: main                               
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+retVal          int                                                                         4       0       null
+i               int                                                                         4       4       null
+temp            int                                                                         4       8       null
+t01             int                                 0                                       4       12      null
+t02             int                                                                         4       16      null
+t03             int                                 3                                       4       20      null
+t04             int                                                                         4       24      null
+find_sum_row    int                                                                         4       28      null
+t05             int                                                                         4       32      null
+t06             int                                                                         4       36      null
+printStr        int                                                                         4       40      null
+t07             pointer(char)                       "The sum for row"                       4       44      null
+t08             int                                                                         4       48      null
+printInt        int                                                                         4       52      null
+t09             int                                                                         4       56      null
+t10             pointer(char)                       " is:"                                  4       60      null
+t11             int                                                                         4       64      null
+t12             int                                                                         4       68      null
+t13             pointer(char)                       "\n"                                    4       72      null
+t14             int                                                                         4       76      null
+t15             int                                 0                                       4       80      null
+
+                        
+quad translation table
+                        
+
+
+
+	1   :	t01 = 0
+	2   :	i = t01
+	3   :	t02 = 0
+	4   :	sum = t02
+	5   :	t03 = 3
+	6   :	t04 = 3
+	7   :	t06 = 8
+	8   :	t5[t06] = 1
+	9   :	t07 = 16
+	10  :	t5[t07] = 2
+	11  :	t08 = 24
+	12  :	t5[t08] = 3
+	13  :	t09 = 32
+	14  :	t5[t09] = 4
+	15  :	t10 = 40
+	16  :	t5[t10] = 5
+	17  :	t11 = 48
+	18  :	t5[t11] = 6
+	19  :	t12 = 56
+	20  :	t5[t12] = 7
+	21  :	t13 = 64
+	22  :	t5[t13] = 8
+	23  :	t14 = 72
+	24  :	t5[t14] = 9
+	25  :	fmat = t5
+	26  :	t15 = 0
+	27  :	i = t15
+	28  :	t17 = 3
+	29  :	if i < t17 goto 33
+	30  :	goto 45
+	31  :	i=i + 1
+	32  :	goto 28
+	33  :	t19 = 8
+	34  :	t20=r * t19
+	35  :	t21 = 3
+	36  :	t22 = t20
+	37  :	t23=t22 * t21
+	38  :	t24=i * t19
+	39  :	t25=t24 + t23
+	40  :	t26=t25 + t19
+	41  :	t27 = fmat[t26]
+	42  :	t29=sum + t27
+	43  :	sum = t29
+	44  :	goto 31
+	45  :	ret sum
+
+
+
+	48  :	t01 = 0
+	49  :	i = t01
+	50  :	t03 = 3
+	51  :	if i < t03 goto 55
+	52  :	goto 72
+	53  :	i=i + 1
+	54  :	goto 50
+	55  :	param i
+	56  :	t05 = call find_sum_row, 1
+	57  :	temp = t05
+	58  :	t07 = 0
+	59  :	param t07
+	60  :	t08 = call printStr, 1
+	61  :	param i
+	62  :	t09 = call printInt, 1
+	63  :	t10 = 1
+	64  :	param t10
+	65  :	t11 = call printStr, 1
+	66  :	param temp
+	67  :	t12 = call printInt, 1
+	68  :	t13 = 2
+	69  :	param t13
+	70  :	t14 = call printStr, 1
+	71  :	goto 53
+	72  :	t15 = 0
+	73  :	ret t15
+                        
+/////////////activation record:printInt////////////
+num	-20
+retVal	-24
+/////////////activation record:printStr////////////
+c	-20
+retVal	-24
+/////////////activation record:readInt////////////
+eP	-20
+retVal	-24
+/////////////activation record:find_sum_row////////////
+fmat	-44
+i	-28
+r	-20
+retVal	-24
+sum	-36
+t01	-32
+t02	-40
+t03	-124
+t04	-128
+t06	-212
+t07	-216
+t08	-220
+t09	-224
+t10	-228
+t11	-232
+t12	-236
+t13	-240
+t14	-244
+t15	-248
+t16	-252
+t17	-256
+t18	-260
+t19	-264
+t20	-268
+t21	-272
+t22	-276
+t23	-280
+t24	-284
+t25	-288
+t26	-292
+t27	-296
+t28	-300
+t29	-304
+t30	-308
+t5	-132
+/////////////activation record:main////////////
+find_sum_row	-52
+i	-28
+printInt	-76
+printStr	-64
+retVal	-24
+t01	-36
+t02	-40
+t03	-44
+t04	-48
+t05	-56
+t06	-60
+t07	-68
+t08	-72
+t09	-80
+t10	-84
+t11	-88
+t12	-92
+t13	-96
+t14	-100
+t15	-104
+temp	-32

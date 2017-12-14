@@ -1,0 +1,1342 @@
+Symbol Table: Global                             
+parent:        null
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+printInt        int                                                                         4       0       printInt
+printStr        int                                                                         4       4       printStr
+readInt         int                                                                         4       8       readInt
+main            int                                                                         4       12      main
+
+Symbol Table: printInt                           
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+num             int                                                                         4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: printStr                           
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+c               pointer(char)                                                               4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: readInt                            
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+eP              pointer(int)                                                                4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: main                               
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+retVal          int                                                                         4       0       null
+mat             matrix(2, 3,double)                 {1,2,3;4,5,6}                           56      4       null
+t01             int                                 2                                       4       60      null
+t02             int                                 3                                       4       64      null
+t3              matrix(2, 3,double)                 {1,2,3;4,5,6}                           56      68      null
+t04             int                                                                         4       124     null
+t05             int                                                                         4       128     null
+t06             int                                                                         4       132     null
+t07             int                                                                         4       136     null
+t08             int                                                                         4       140     null
+t09             int                                                                         4       144     null
+p               matrix(3, 2,double)                 {1,3;5,7;9,11}                          56      148     null
+t10             int                                 3                                       4       204     null
+t11             int                                 2                                       4       208     null
+t12             matrix(3, 2,double)                 {1,3;5,7;9,11}                          56      212     null
+t13             int                                                                         4       268     null
+t14             int                                                                         4       272     null
+t15             int                                                                         4       276     null
+t16             int                                                                         4       280     null
+t17             int                                                                         4       284     null
+t18             int                                                                         4       288     null
+a               matrix(2, 3,double)                 {2,4,6;8,10,12}                         56      292     null
+t19             int                                 2                                       4       348     null
+t20             int                                 3                                       4       352     null
+t21             matrix(2, 3,double)                 {2,4,6;8,10,12}                         56      356     null
+t22             int                                                                         4       412     null
+t23             int                                                                         4       416     null
+t24             int                                                                         4       420     null
+t25             int                                                                         4       424     null
+t26             int                                                                         4       428     null
+t27             int                                                                         4       432     null
+trans           matrix(3, 2,double)                                                         56      436     null
+t28             int                                 3                                       4       492     null
+t29             int                                 2                                       4       496     null
+prod            matrix(2, 2,double)                                                         40      500     null
+t30             int                                 2                                       4       540     null
+t31             int                                 2                                       4       544     null
+add             matrix(2, 3,double)                                                         56      548     null
+t32             int                                 2                                       4       604     null
+t33             int                                 3                                       4       608     null
+sub             matrix(2, 3,double)                                                         56      612     null
+t34             int                                 2                                       4       668     null
+t35             int                                 3                                       4       672     null
+i               int                                 0                                       4       676     null
+t36             int                                 0                                       4       680     null
+j               int                                 0                                       4       684     null
+t37             int                                 0                                       4       688     null
+t               int                                                                         4       692     null
+t38             matrix(2, 3,double)                                                         56      696     null
+t39             matrix(2, 3,double)                                                         56      752     null
+t40             matrix(2, 3,double)                                                         56      808     null
+t41             int                                                                         4       864     null
+t42             int                                                                         4       868     null
+t43             int                                                                         4       872     null
+t44             int                                                                         4       876     null
+t45             int                                                                         4       880     null
+t46             int                                                                         4       884     null
+t47             int                                                                         4       888     null
+t48             int                                                                         4       892     null
+t49             int                                                                         4       896     null
+t50             int                                                                         4       900     null
+t51             int                                                                         4       904     null
+t52             int                                                                         4       908     null
+t53             int                                                                         4       912     null
+t54             int                                                                         4       916     null
+t55             int                                                                         4       920     null
+t56             int                                                                         4       924     null
+t57             int                                                                         4       928     null
+t58             int                                                                         4       932     null
+t59             int                                                                         4       936     null
+t60             int                                                                         4       940     null
+t61             int                                                                         4       944     null
+t62             int                                                                         4       948     null
+t63             int                                                                         4       952     null
+t64             int                                                                         4       956     null
+t65             matrix(2, 3,double)                                                         56      960     null
+t66             matrix(2, 3,double)                                                         56      1016    null
+t67             matrix(2, 3,double)                                                         56      1072    null
+t68             int                                                                         4       1128    null
+t69             int                                                                         4       1132    null
+t70             int                                                                         4       1136    null
+t71             int                                                                         4       1140    null
+t72             int                                                                         4       1144    null
+t73             int                                                                         4       1148    null
+t74             int                                                                         4       1152    null
+t75             int                                                                         4       1156    null
+t76             int                                                                         4       1160    null
+t77             int                                                                         4       1164    null
+t78             int                                                                         4       1168    null
+t79             int                                                                         4       1172    null
+t80             int                                                                         4       1176    null
+t81             int                                                                         4       1180    null
+t82             int                                                                         4       1184    null
+t83             int                                                                         4       1188    null
+t84             int                                                                         4       1192    null
+t85             int                                                                         4       1196    null
+t86             int                                                                         4       1200    null
+t87             int                                                                         4       1204    null
+t88             int                                                                         4       1208    null
+t89             int                                                                         4       1212    null
+t90             int                                                                         4       1216    null
+t91             int                                                                         4       1220    null
+t92             matrix(2, 3,double)                                                         56      1224    null
+t93             matrix(2, 2,double)                                                         40      1280    null
+t94             int                                                                         4       1320    null
+t95             int                                                                         4       1324    null
+t96             int                                                                         4       1328    null
+t97             int                                                                         4       1332    null
+t98             int                                                                         4       1336    null
+t99             int                                                                         4       1340    null
+t100            int                                                                         4       1344    null
+t101            int                                                                         4       1348    null
+t102            int                                                                         4       1352    null
+t103            int                                                                         4       1356    null
+t104            int                                                                         4       1360    null
+t105            int                                                                         4       1364    null
+t106            int                                                                         4       1368    null
+t107            int                                                                         4       1372    null
+t108            int                                                                         4       1376    null
+t109            int                                                                         4       1380    null
+t110            int                                                                         4       1384    null
+t111            int                                                                         4       1388    null
+t112            int                                                                         4       1392    null
+t113            int                                                                         4       1396    null
+t114            int                                                                         4       1400    null
+t115            int                                                                         4       1404    null
+t116            int                                                                         4       1408    null
+t117            int                                                                         4       1412    null
+t118            int                                                                         4       1416    null
+t119            int                                                                         4       1420    null
+t120            int                                                                         4       1424    null
+t121            int                                                                         4       1428    null
+t122            int                                                                         4       1432    null
+t123            int                                                                         4       1436    null
+t124            int                                                                         4       1440    null
+t125            int                                                                         4       1444    null
+t126            int                                                                         4       1448    null
+t127            int                                                                         4       1452    null
+t128            int                                                                         4       1456    null
+t129            int                                                                         4       1460    null
+t130            int                                                                         4       1464    null
+t131            int                                                                         4       1468    null
+t132            int                                                                         4       1472    null
+t133            int                                                                         4       1476    null
+t134            int                                                                         4       1480    null
+t135            int                                                                         4       1484    null
+t136            int                                                                         4       1488    null
+t137            int                                                                         4       1492    null
+t138            int                                                                         4       1496    null
+t139            int                                                                         4       1500    null
+t140            int                                                                         4       1504    null
+t141            int                                                                         4       1508    null
+t142            int                                                                         4       1512    null
+t143            int                                                                         4       1516    null
+t144            int                                                                         4       1520    null
+t145            int                                                                         4       1524    null
+t146            int                                                                         4       1528    null
+t147            int                                                                         4       1532    null
+t148            int                                                                         4       1536    null
+t149            int                                                                         4       1540    null
+t150            int                                                                         4       1544    null
+t151            int                                                                         4       1548    null
+t152            int                                                                         4       1552    null
+t153            int                                                                         4       1556    null
+t154            int                                                                         4       1560    null
+t155            int                                                                         4       1564    null
+t156            int                                                                         4       1568    null
+t157            int                                                                         4       1572    null
+t158            int                                                                         4       1576    null
+t159            int                                                                         4       1580    null
+t160            int                                                                         4       1584    null
+t161            int                                                                         4       1588    null
+t162            matrix(3, 2,double)                                                         56      1592    null
+t163            int                                                                         4       1648    null
+t164            int                                                                         4       1652    null
+t165            int                                                                         4       1656    null
+t166            int                                                                         4       1660    null
+t167            int                                                                         4       1664    null
+t168            int                                                                         4       1668    null
+t169            int                                                                         4       1672    null
+t170            int                                                                         4       1676    null
+t171            int                                                                         4       1680    null
+t172            int                                                                         4       1684    null
+t173            int                                                                         4       1688    null
+t174            int                                                                         4       1692    null
+t175            int                                                                         4       1696    null
+t176            int                                                                         4       1700    null
+t177            int                                                                         4       1704    null
+t178            int                                                                         4       1708    null
+t179            int                                                                         4       1712    null
+t180            int                                                                         4       1716    null
+t181            matrix(3, 2,double)                                                         56      1720    null
+printStr        int                                                                         4       1776    null
+t182            pointer(char)                       "Matrix mat:"                           4       1780    null
+t183            int                                                                         4       1784    null
+t184            int                                 0                                       4       1788    null
+t185            int                                                                         4       1792    null
+t186            int                                 2                                       4       1796    null
+t187            int                                                                         4       1800    null
+t188            pointer(char)                       "\n"                                    4       1804    null
+t189            int                                                                         4       1808    null
+t190            int                                 0                                       4       1812    null
+t191            int                                                                         4       1816    null
+t192            int                                 3                                       4       1820    null
+t193            int                                                                         4       1824    null
+t194            int                                                                         4       1828    null
+t195            int                                                                         4       1832    null
+t196            int                                                                         4       1836    null
+t197            int                                                                         4       1840    null
+t198            int                                                                         4       1844    null
+t199            int                                                                         4       1848    null
+t200            int                                                                         4       1852    null
+t201            int                                                                         4       1856    null
+t202            int                                                                         4       1860    null
+t203            int                                                                         4       1864    null
+printInt        int                                                                         4       1868    null
+t204            int                                                                         4       1872    null
+t205            pointer(char)                       " "                                     4       1876    null
+t206            int                                                                         4       1880    null
+t207            pointer(char)                       "\n\n"                                  4       1884    null
+t208            int                                                                         4       1888    null
+t209            pointer(char)                       "Matrix a:"                             4       1892    null
+t210            int                                                                         4       1896    null
+t211            int                                 0                                       4       1900    null
+t212            int                                                                         4       1904    null
+t213            int                                 2                                       4       1908    null
+t214            int                                                                         4       1912    null
+t215            pointer(char)                       "\n"                                    4       1916    null
+t216            int                                                                         4       1920    null
+t217            int                                 0                                       4       1924    null
+t218            int                                                                         4       1928    null
+t219            int                                 3                                       4       1932    null
+t220            int                                                                         4       1936    null
+t221            int                                                                         4       1940    null
+t222            int                                                                         4       1944    null
+t223            int                                                                         4       1948    null
+t224            int                                                                         4       1952    null
+t225            int                                                                         4       1956    null
+t226            int                                                                         4       1960    null
+t227            int                                                                         4       1964    null
+t228            int                                                                         4       1968    null
+t229            int                                                                         4       1972    null
+t230            int                                                                         4       1976    null
+t231            int                                                                         4       1980    null
+t232            pointer(char)                       " "                                     4       1984    null
+t233            int                                                                         4       1988    null
+t234            pointer(char)                       "\n\n"                                  4       1992    null
+t235            int                                                                         4       1996    null
+t236            pointer(char)                       "Matrix p:"                             4       2000    null
+t237            int                                                                         4       2004    null
+t238            int                                 0                                       4       2008    null
+t239            int                                                                         4       2012    null
+t240            int                                 3                                       4       2016    null
+t241            int                                                                         4       2020    null
+t242            pointer(char)                       "\n"                                    4       2024    null
+t243            int                                                                         4       2028    null
+t244            int                                 0                                       4       2032    null
+t245            int                                                                         4       2036    null
+t246            int                                 2                                       4       2040    null
+t247            int                                                                         4       2044    null
+t248            int                                                                         4       2048    null
+t249            int                                                                         4       2052    null
+t250            int                                                                         4       2056    null
+t251            int                                                                         4       2060    null
+t252            int                                                                         4       2064    null
+t253            int                                                                         4       2068    null
+t254            int                                                                         4       2072    null
+t255            int                                                                         4       2076    null
+t256            int                                                                         4       2080    null
+t257            int                                                                         4       2084    null
+t258            int                                                                         4       2088    null
+t259            pointer(char)                       " "                                     4       2092    null
+t260            int                                                                         4       2096    null
+t261            pointer(char)                       "\n\n"                                  4       2100    null
+t262            int                                                                         4       2104    null
+t263            pointer(char)                       "addition mat+a:"                       4       2108    null
+t264            int                                                                         4       2112    null
+t265            int                                 0                                       4       2116    null
+t266            int                                                                         4       2120    null
+t267            int                                 2                                       4       2124    null
+t268            int                                                                         4       2128    null
+t269            pointer(char)                       "\n"                                    4       2132    null
+t270            int                                                                         4       2136    null
+t271            int                                 0                                       4       2140    null
+t272            int                                                                         4       2144    null
+t273            int                                 3                                       4       2148    null
+t274            int                                                                         4       2152    null
+t275            int                                                                         4       2156    null
+t276            int                                                                         4       2160    null
+t277            int                                                                         4       2164    null
+t278            int                                                                         4       2168    null
+t279            int                                                                         4       2172    null
+t280            int                                                                         4       2176    null
+t281            int                                                                         4       2180    null
+t282            int                                                                         4       2184    null
+t283            int                                                                         4       2188    null
+t284            int                                                                         4       2192    null
+t285            int                                                                         4       2196    null
+t286            pointer(char)                       " "                                     4       2200    null
+t287            int                                                                         4       2204    null
+t288            pointer(char)                       "\n\n"                                  4       2208    null
+t289            int                                                                         4       2212    null
+t290            pointer(char)                       "subtraction mat-a:"                    4       2216    null
+t291            int                                                                         4       2220    null
+t292            int                                 0                                       4       2224    null
+t293            int                                                                         4       2228    null
+t294            int                                 2                                       4       2232    null
+t295            int                                                                         4       2236    null
+t296            pointer(char)                       "\n"                                    4       2240    null
+t297            int                                                                         4       2244    null
+t298            int                                 0                                       4       2248    null
+t299            int                                                                         4       2252    null
+t300            int                                 3                                       4       2256    null
+t301            int                                                                         4       2260    null
+t302            int                                                                         4       2264    null
+t303            int                                                                         4       2268    null
+t304            int                                                                         4       2272    null
+t305            int                                                                         4       2276    null
+t306            int                                                                         4       2280    null
+t307            int                                                                         4       2284    null
+t308            int                                                                         4       2288    null
+t309            int                                                                         4       2292    null
+t310            int                                                                         4       2296    null
+t311            int                                                                         4       2300    null
+t312            int                                                                         4       2304    null
+t313            pointer(char)                       " "                                     4       2308    null
+t314            int                                                                         4       2312    null
+t315            pointer(char)                       "\n\n"                                  4       2316    null
+t316            int                                                                         4       2320    null
+t317            pointer(char)                       "multiplication: mat*p"                 4       2324    null
+t318            int                                                                         4       2328    null
+t319            int                                 0                                       4       2332    null
+t320            int                                                                         4       2336    null
+t321            int                                 2                                       4       2340    null
+t322            int                                                                         4       2344    null
+t323            pointer(char)                       "\n"                                    4       2348    null
+t324            int                                                                         4       2352    null
+t325            int                                 0                                       4       2356    null
+t326            int                                                                         4       2360    null
+t327            int                                 2                                       4       2364    null
+t328            int                                                                         4       2368    null
+t329            int                                                                         4       2372    null
+t330            int                                                                         4       2376    null
+t331            int                                                                         4       2380    null
+t332            int                                                                         4       2384    null
+t333            int                                                                         4       2388    null
+t334            int                                                                         4       2392    null
+t335            int                                                                         4       2396    null
+t336            int                                                                         4       2400    null
+t337            int                                                                         4       2404    null
+t338            int                                                                         4       2408    null
+t339            int                                                                         4       2412    null
+t340            pointer(char)                       " "                                     4       2416    null
+t341            int                                                                         4       2420    null
+t342            pointer(char)                       "\n\n"                                  4       2424    null
+t343            int                                                                         4       2428    null
+t344            pointer(char)                       "transpose: mat.'"                      4       2432    null
+t345            int                                                                         4       2436    null
+t346            int                                 0                                       4       2440    null
+t347            int                                                                         4       2444    null
+t348            int                                 3                                       4       2448    null
+t349            int                                                                         4       2452    null
+t350            pointer(char)                       "\n"                                    4       2456    null
+t351            int                                                                         4       2460    null
+t352            int                                 0                                       4       2464    null
+t353            int                                                                         4       2468    null
+t354            int                                 2                                       4       2472    null
+t355            int                                                                         4       2476    null
+t356            int                                                                         4       2480    null
+t357            int                                                                         4       2484    null
+t358            int                                                                         4       2488    null
+t359            int                                                                         4       2492    null
+t360            int                                                                         4       2496    null
+t361            int                                                                         4       2500    null
+t362            int                                                                         4       2504    null
+t363            int                                                                         4       2508    null
+t364            int                                                                         4       2512    null
+t365            int                                                                         4       2516    null
+t366            int                                                                         4       2520    null
+t367            pointer(char)                       " "                                     4       2524    null
+t368            int                                                                         4       2528    null
+t369            int                                 0                                       4       2532    null
+
+                        
+quad translation table
+                        
+
+
+
+	1   :	t01 = 2
+	2   :	t02 = 3
+	3   :	t04 = 8
+	4   :	t3[t04] = 1
+	5   :	t05 = 16
+	6   :	t3[t05] = 2
+	7   :	t06 = 24
+	8   :	t3[t06] = 3
+	9   :	t07 = 32
+	10  :	t3[t07] = 4
+	11  :	t08 = 40
+	12  :	t3[t08] = 5
+	13  :	t09 = 48
+	14  :	t3[t09] = 6
+	15  :	mat = t3
+	16  :	t10 = 3
+	17  :	t11 = 2
+	18  :	t13 = 8
+	19  :	t12[t13] = 1
+	20  :	t14 = 16
+	21  :	t12[t14] = 3
+	22  :	t15 = 24
+	23  :	t12[t15] = 5
+	24  :	t16 = 32
+	25  :	t12[t16] = 7
+	26  :	t17 = 40
+	27  :	t12[t17] = 9
+	28  :	t18 = 48
+	29  :	t12[t18] = 11
+	30  :	p = t12
+	31  :	t19 = 2
+	32  :	t20 = 3
+	33  :	t22 = 8
+	34  :	t21[t22] = 2
+	35  :	t23 = 16
+	36  :	t21[t23] = 4
+	37  :	t24 = 24
+	38  :	t21[t24] = 6
+	39  :	t25 = 32
+	40  :	t21[t25] = 8
+	41  :	t26 = 40
+	42  :	t21[t26] = 10
+	43  :	t27 = 48
+	44  :	t21[t27] = 12
+	45  :	a = t21
+	46  :	t28 = 3
+	47  :	t29 = 2
+	48  :	t30 = 2
+	49  :	t31 = 2
+	50  :	t32 = 2
+	51  :	t33 = 3
+	52  :	t34 = 2
+	53  :	t35 = 3
+	54  :	t36 = 0
+	55  :	i = t36
+	56  :	t37 = 0
+	57  :	j = t37
+	58  :	t38=mat
+	59  :	t39=a
+	60  :	t42 = 8
+	61  :	t41 = t38[t42]
+	62  :	t43 = t39[t42]
+	63  :	t44=t43 + t41
+	64  :	t40[t42] = t44
+	65  :	t46 = 16
+	66  :	t45 = t38[t46]
+	67  :	t47 = t39[t46]
+	68  :	t48=t47 + t45
+	69  :	t40[t46] = t48
+	70  :	t50 = 24
+	71  :	t49 = t38[t50]
+	72  :	t51 = t39[t50]
+	73  :	t52=t51 + t49
+	74  :	t40[t50] = t52
+	75  :	t54 = 32
+	76  :	t53 = t38[t54]
+	77  :	t55 = t39[t54]
+	78  :	t56=t55 + t53
+	79  :	t40[t54] = t56
+	80  :	t58 = 40
+	81  :	t57 = t38[t58]
+	82  :	t59 = t39[t58]
+	83  :	t60=t59 + t57
+	84  :	t40[t58] = t60
+	85  :	t62 = 48
+	86  :	t61 = t38[t62]
+	87  :	t63 = t39[t62]
+	88  :	t64=t63 + t61
+	89  :	t40[t62] = t64
+	90  :	add=t40
+	91  :	t65=mat
+	92  :	t66=a
+	93  :	t69 = 8
+	94  :	t68 = t65[t69]
+	95  :	t70 = t66[t69]
+	96  :	t71=t68 - t70
+	97  :	t67[t69] = t71
+	98  :	t73 = 16
+	99  :	t72 = t65[t73]
+	100 :	t74 = t66[t73]
+	101 :	t75=t72 - t74
+	102 :	t67[t73] = t75
+	103 :	t77 = 24
+	104 :	t76 = t65[t77]
+	105 :	t78 = t66[t77]
+	106 :	t79=t76 - t78
+	107 :	t67[t77] = t79
+	108 :	t81 = 32
+	109 :	t80 = t65[t81]
+	110 :	t82 = t66[t81]
+	111 :	t83=t80 - t82
+	112 :	t67[t81] = t83
+	113 :	t85 = 40
+	114 :	t84 = t65[t85]
+	115 :	t86 = t66[t85]
+	116 :	t87=t84 - t86
+	117 :	t67[t85] = t87
+	118 :	t89 = 48
+	119 :	t88 = t65[t89]
+	120 :	t90 = t66[t89]
+	121 :	t91=t88 - t90
+	122 :	t67[t89] = t91
+	123 :	sub=t67
+	124 :	t92=mat
+	125 :	t94 = 8
+	126 :	t95 = 0
+	127 :	t93[t95] = t95
+	128 :	t96 = 8
+	129 :	t97 = 8
+	130 :	t98 = t92[t96]
+	131 :	t99 = p[t97]
+	132 :	t100=t98 * t99
+	133 :	t95=t95 + t100
+	134 :	t93[t94] = t95
+	135 :	t101 = 16
+	136 :	t102 = 24
+	137 :	t103 = t92[t101]
+	138 :	t104 = p[t102]
+	139 :	t105=t103 * t104
+	140 :	t95=t95 + t105
+	141 :	t93[t94] = t95
+	142 :	t106 = 24
+	143 :	t107 = 40
+	144 :	t108 = t92[t106]
+	145 :	t109 = p[t107]
+	146 :	t110=t108 * t109
+	147 :	t95=t95 + t110
+	148 :	t93[t94] = t95
+	149 :	t111 = 16
+	150 :	t112 = 0
+	151 :	t93[t112] = t112
+	152 :	t113 = 8
+	153 :	t114 = 16
+	154 :	t115 = t92[t113]
+	155 :	t116 = p[t114]
+	156 :	t117=t115 * t116
+	157 :	t112=t112 + t117
+	158 :	t93[t111] = t112
+	159 :	t118 = 16
+	160 :	t119 = 32
+	161 :	t120 = t92[t118]
+	162 :	t121 = p[t119]
+	163 :	t122=t120 * t121
+	164 :	t112=t112 + t122
+	165 :	t93[t111] = t112
+	166 :	t123 = 24
+	167 :	t124 = 48
+	168 :	t125 = t92[t123]
+	169 :	t126 = p[t124]
+	170 :	t127=t125 * t126
+	171 :	t112=t112 + t127
+	172 :	t93[t111] = t112
+	173 :	t128 = 24
+	174 :	t129 = 0
+	175 :	t93[t129] = t129
+	176 :	t130 = 32
+	177 :	t131 = 8
+	178 :	t132 = t92[t130]
+	179 :	t133 = p[t131]
+	180 :	t134=t132 * t133
+	181 :	t129=t129 + t134
+	182 :	t93[t128] = t129
+	183 :	t135 = 40
+	184 :	t136 = 24
+	185 :	t137 = t92[t135]
+	186 :	t138 = p[t136]
+	187 :	t139=t137 * t138
+	188 :	t129=t129 + t139
+	189 :	t93[t128] = t129
+	190 :	t140 = 48
+	191 :	t141 = 40
+	192 :	t142 = t92[t140]
+	193 :	t143 = p[t141]
+	194 :	t144=t142 * t143
+	195 :	t129=t129 + t144
+	196 :	t93[t128] = t129
+	197 :	t145 = 32
+	198 :	t146 = 0
+	199 :	t93[t146] = t146
+	200 :	t147 = 32
+	201 :	t148 = 16
+	202 :	t149 = t92[t147]
+	203 :	t150 = p[t148]
+	204 :	t151=t149 * t150
+	205 :	t146=t146 + t151
+	206 :	t93[t145] = t146
+	207 :	t152 = 40
+	208 :	t153 = 32
+	209 :	t154 = t92[t152]
+	210 :	t155 = p[t153]
+	211 :	t156=t154 * t155
+	212 :	t146=t146 + t156
+	213 :	t93[t145] = t146
+	214 :	t157 = 48
+	215 :	t158 = 48
+	216 :	t159 = t92[t157]
+	217 :	t160 = p[t158]
+	218 :	t161=t159 * t160
+	219 :	t146=t146 + t161
+	220 :	t93[t145] = t146
+	221 :	prod=t93
+	222 :	t164 = 8
+	223 :	t163 = mat[t164]
+	224 :	t165 = 8
+	225 :	t162[t165] = t163
+	226 :	t167 = 16
+	227 :	t166 = mat[t167]
+	228 :	t168 = 24
+	229 :	t162[t168] = t166
+	230 :	t170 = 24
+	231 :	t169 = mat[t170]
+	232 :	t171 = 40
+	233 :	t162[t171] = t169
+	234 :	t173 = 32
+	235 :	t172 = mat[t173]
+	236 :	t174 = 16
+	237 :	t162[t174] = t172
+	238 :	t176 = 40
+	239 :	t175 = mat[t176]
+	240 :	t177 = 32
+	241 :	t162[t177] = t175
+	242 :	t179 = 48
+	243 :	t178 = mat[t179]
+	244 :	t180 = 48
+	245 :	t162[t180] = t178
+	246 :	t181 = t162
+	247 :	trans=t181
+	248 :	t182 = 0
+	249 :	param t182
+	250 :	t183 = call printStr, 1
+	251 :	t184 = 0
+	252 :	i = t184
+	253 :	t186 = 2
+	254 :	if i < t186 goto 258
+	255 :	goto 285
+	256 :	i=i + 1
+	257 :	goto 253
+	258 :	t188 = 1
+	259 :	param t188
+	260 :	t189 = call printStr, 1
+	261 :	t190 = 0
+	262 :	j = t190
+	263 :	t192 = 3
+	264 :	if j < t192 goto 268
+	265 :	goto 256
+	266 :	j=j + 1
+	267 :	goto 263
+	268 :	t194 = 8
+	269 :	t195=i * t194
+	270 :	t196 = 3
+	271 :	t197 = t195
+	272 :	t198=t197 * t196
+	273 :	t199=j * t194
+	274 :	t200=t199 + t198
+	275 :	t201=t200 + t194
+	276 :	t202 = mat[t201]
+	277 :	t = t202
+	278 :	param t
+	279 :	t204 = call printInt, 1
+	280 :	t205 = 2
+	281 :	param t205
+	282 :	t206 = call printStr, 1
+	283 :	goto 266
+	284 :	goto 256
+	285 :	t207 = 3
+	286 :	param t207
+	287 :	t208 = call printStr, 1
+	288 :	t209 = 4
+	289 :	param t209
+	290 :	t210 = call printStr, 1
+	291 :	t211 = 0
+	292 :	i = t211
+	293 :	t213 = 2
+	294 :	if i < t213 goto 298
+	295 :	goto 325
+	296 :	i=i + 1
+	297 :	goto 293
+	298 :	t215 = 5
+	299 :	param t215
+	300 :	t216 = call printStr, 1
+	301 :	t217 = 0
+	302 :	j = t217
+	303 :	t219 = 3
+	304 :	if j < t219 goto 308
+	305 :	goto 296
+	306 :	j=j + 1
+	307 :	goto 303
+	308 :	t221 = 8
+	309 :	t222=i * t221
+	310 :	t223 = 3
+	311 :	t224 = t222
+	312 :	t225=t224 * t223
+	313 :	t226=j * t221
+	314 :	t227=t226 + t225
+	315 :	t228=t227 + t221
+	316 :	t229 = a[t228]
+	317 :	t = t229
+	318 :	param t
+	319 :	t231 = call printInt, 1
+	320 :	t232 = 6
+	321 :	param t232
+	322 :	t233 = call printStr, 1
+	323 :	goto 306
+	324 :	goto 296
+	325 :	t234 = 7
+	326 :	param t234
+	327 :	t235 = call printStr, 1
+	328 :	t236 = 8
+	329 :	param t236
+	330 :	t237 = call printStr, 1
+	331 :	t238 = 0
+	332 :	i = t238
+	333 :	t240 = 3
+	334 :	if i < t240 goto 338
+	335 :	goto 365
+	336 :	i=i + 1
+	337 :	goto 333
+	338 :	t242 = 9
+	339 :	param t242
+	340 :	t243 = call printStr, 1
+	341 :	t244 = 0
+	342 :	j = t244
+	343 :	t246 = 2
+	344 :	if j < t246 goto 348
+	345 :	goto 336
+	346 :	j=j + 1
+	347 :	goto 343
+	348 :	t248 = 8
+	349 :	t249=i * t248
+	350 :	t250 = 2
+	351 :	t251 = t249
+	352 :	t252=t251 * t250
+	353 :	t253=j * t248
+	354 :	t254=t253 + t252
+	355 :	t255=t254 + t248
+	356 :	t256 = p[t255]
+	357 :	t = t256
+	358 :	param t
+	359 :	t258 = call printInt, 1
+	360 :	t259 = 10
+	361 :	param t259
+	362 :	t260 = call printStr, 1
+	363 :	goto 346
+	364 :	goto 336
+	365 :	t261 = 11
+	366 :	param t261
+	367 :	t262 = call printStr, 1
+	368 :	t263 = 12
+	369 :	param t263
+	370 :	t264 = call printStr, 1
+	371 :	t265 = 0
+	372 :	i = t265
+	373 :	t267 = 2
+	374 :	if i < t267 goto 378
+	375 :	goto 405
+	376 :	i=i + 1
+	377 :	goto 373
+	378 :	t269 = 13
+	379 :	param t269
+	380 :	t270 = call printStr, 1
+	381 :	t271 = 0
+	382 :	j = t271
+	383 :	t273 = 3
+	384 :	if j < t273 goto 388
+	385 :	goto 376
+	386 :	j=j + 1
+	387 :	goto 383
+	388 :	t275 = 8
+	389 :	t276=i * t275
+	390 :	t277 = 3
+	391 :	t278 = t276
+	392 :	t279=t278 * t277
+	393 :	t280=j * t275
+	394 :	t281=t280 + t279
+	395 :	t282=t281 + t275
+	396 :	t283 = add[t282]
+	397 :	t = t283
+	398 :	param t
+	399 :	t285 = call printInt, 1
+	400 :	t286 = 14
+	401 :	param t286
+	402 :	t287 = call printStr, 1
+	403 :	goto 386
+	404 :	goto 376
+	405 :	t288 = 15
+	406 :	param t288
+	407 :	t289 = call printStr, 1
+	408 :	t290 = 16
+	409 :	param t290
+	410 :	t291 = call printStr, 1
+	411 :	t292 = 0
+	412 :	i = t292
+	413 :	t294 = 2
+	414 :	if i < t294 goto 418
+	415 :	goto 445
+	416 :	i=i + 1
+	417 :	goto 413
+	418 :	t296 = 17
+	419 :	param t296
+	420 :	t297 = call printStr, 1
+	421 :	t298 = 0
+	422 :	j = t298
+	423 :	t300 = 3
+	424 :	if j < t300 goto 428
+	425 :	goto 416
+	426 :	j=j + 1
+	427 :	goto 423
+	428 :	t302 = 8
+	429 :	t303=i * t302
+	430 :	t304 = 3
+	431 :	t305 = t303
+	432 :	t306=t305 * t304
+	433 :	t307=j * t302
+	434 :	t308=t307 + t306
+	435 :	t309=t308 + t302
+	436 :	t310 = sub[t309]
+	437 :	t = t310
+	438 :	param t
+	439 :	t312 = call printInt, 1
+	440 :	t313 = 18
+	441 :	param t313
+	442 :	t314 = call printStr, 1
+	443 :	goto 426
+	444 :	goto 416
+	445 :	t315 = 19
+	446 :	param t315
+	447 :	t316 = call printStr, 1
+	448 :	t317 = 20
+	449 :	param t317
+	450 :	t318 = call printStr, 1
+	451 :	t319 = 0
+	452 :	i = t319
+	453 :	t321 = 2
+	454 :	if i < t321 goto 458
+	455 :	goto 485
+	456 :	i=i + 1
+	457 :	goto 453
+	458 :	t323 = 21
+	459 :	param t323
+	460 :	t324 = call printStr, 1
+	461 :	t325 = 0
+	462 :	j = t325
+	463 :	t327 = 2
+	464 :	if j < t327 goto 468
+	465 :	goto 456
+	466 :	j=j + 1
+	467 :	goto 463
+	468 :	t329 = 8
+	469 :	t330=i * t329
+	470 :	t331 = 2
+	471 :	t332 = t330
+	472 :	t333=t332 * t331
+	473 :	t334=j * t329
+	474 :	t335=t334 + t333
+	475 :	t336=t335 + t329
+	476 :	t337 = prod[t336]
+	477 :	t = t337
+	478 :	param t
+	479 :	t339 = call printInt, 1
+	480 :	t340 = 22
+	481 :	param t340
+	482 :	t341 = call printStr, 1
+	483 :	goto 466
+	484 :	goto 456
+	485 :	t342 = 23
+	486 :	param t342
+	487 :	t343 = call printStr, 1
+	488 :	t344 = 24
+	489 :	param t344
+	490 :	t345 = call printStr, 1
+	491 :	t346 = 0
+	492 :	i = t346
+	493 :	t348 = 3
+	494 :	if i < t348 goto 498
+	495 :	goto 525
+	496 :	i=i + 1
+	497 :	goto 493
+	498 :	t350 = 25
+	499 :	param t350
+	500 :	t351 = call printStr, 1
+	501 :	t352 = 0
+	502 :	j = t352
+	503 :	t354 = 2
+	504 :	if j < t354 goto 508
+	505 :	goto 496
+	506 :	j=j + 1
+	507 :	goto 503
+	508 :	t356 = 8
+	509 :	t357=i * t356
+	510 :	t358 = 2
+	511 :	t359 = t357
+	512 :	t360=t359 * t358
+	513 :	t361=j * t356
+	514 :	t362=t361 + t360
+	515 :	t363=t362 + t356
+	516 :	t364 = trans[t363]
+	517 :	t = t364
+	518 :	param t
+	519 :	t366 = call printInt, 1
+	520 :	t367 = 26
+	521 :	param t367
+	522 :	t368 = call printStr, 1
+	523 :	goto 506
+	524 :	goto 496
+	525 :	t369 = 0
+	526 :	ret t369
+                        
+/////////////activation record:printInt////////////
+num	-20
+retVal	-24
+/////////////activation record:printStr////////////
+c	-20
+retVal	-24
+/////////////activation record:readInt////////////
+eP	-20
+retVal	-24
+/////////////activation record:main////////////
+a	-316
+add	-572
+i	-700
+j	-708
+mat	-28
+p	-172
+printInt	-1892
+printStr	-1800
+prod	-524
+retVal	-24
+sub	-636
+t	-716
+t01	-84
+t02	-88
+t04	-148
+t05	-152
+t06	-156
+t07	-160
+t08	-164
+t09	-168
+t10	-228
+t100	-1368
+t101	-1372
+t102	-1376
+t103	-1380
+t104	-1384
+t105	-1388
+t106	-1392
+t107	-1396
+t108	-1400
+t109	-1404
+t11	-232
+t110	-1408
+t111	-1412
+t112	-1416
+t113	-1420
+t114	-1424
+t115	-1428
+t116	-1432
+t117	-1436
+t118	-1440
+t119	-1444
+t12	-236
+t120	-1448
+t121	-1452
+t122	-1456
+t123	-1460
+t124	-1464
+t125	-1468
+t126	-1472
+t127	-1476
+t128	-1480
+t129	-1484
+t13	-292
+t130	-1488
+t131	-1492
+t132	-1496
+t133	-1500
+t134	-1504
+t135	-1508
+t136	-1512
+t137	-1516
+t138	-1520
+t139	-1524
+t14	-296
+t140	-1528
+t141	-1532
+t142	-1536
+t143	-1540
+t144	-1544
+t145	-1548
+t146	-1552
+t147	-1556
+t148	-1560
+t149	-1564
+t15	-300
+t150	-1568
+t151	-1572
+t152	-1576
+t153	-1580
+t154	-1584
+t155	-1588
+t156	-1592
+t157	-1596
+t158	-1600
+t159	-1604
+t16	-304
+t160	-1608
+t161	-1612
+t162	-1616
+t163	-1672
+t164	-1676
+t165	-1680
+t166	-1684
+t167	-1688
+t168	-1692
+t169	-1696
+t17	-308
+t170	-1700
+t171	-1704
+t172	-1708
+t173	-1712
+t174	-1716
+t175	-1720
+t176	-1724
+t177	-1728
+t178	-1732
+t179	-1736
+t18	-312
+t180	-1740
+t181	-1744
+t182	-1804
+t183	-1808
+t184	-1812
+t185	-1816
+t186	-1820
+t187	-1824
+t188	-1828
+t189	-1832
+t19	-372
+t190	-1836
+t191	-1840
+t192	-1844
+t193	-1848
+t194	-1852
+t195	-1856
+t196	-1860
+t197	-1864
+t198	-1868
+t199	-1872
+t20	-376
+t200	-1876
+t201	-1880
+t202	-1884
+t203	-1888
+t204	-1896
+t205	-1900
+t206	-1904
+t207	-1908
+t208	-1912
+t209	-1916
+t21	-380
+t210	-1920
+t211	-1924
+t212	-1928
+t213	-1932
+t214	-1936
+t215	-1940
+t216	-1944
+t217	-1948
+t218	-1952
+t219	-1956
+t22	-436
+t220	-1960
+t221	-1964
+t222	-1968
+t223	-1972
+t224	-1976
+t225	-1980
+t226	-1984
+t227	-1988
+t228	-1992
+t229	-1996
+t23	-440
+t230	-2000
+t231	-2004
+t232	-2008
+t233	-2012
+t234	-2016
+t235	-2020
+t236	-2024
+t237	-2028
+t238	-2032
+t239	-2036
+t24	-444
+t240	-2040
+t241	-2044
+t242	-2048
+t243	-2052
+t244	-2056
+t245	-2060
+t246	-2064
+t247	-2068
+t248	-2072
+t249	-2076
+t25	-448
+t250	-2080
+t251	-2084
+t252	-2088
+t253	-2092
+t254	-2096
+t255	-2100
+t256	-2104
+t257	-2108
+t258	-2112
+t259	-2116
+t26	-452
+t260	-2120
+t261	-2124
+t262	-2128
+t263	-2132
+t264	-2136
+t265	-2140
+t266	-2144
+t267	-2148
+t268	-2152
+t269	-2156
+t27	-456
+t270	-2160
+t271	-2164
+t272	-2168
+t273	-2172
+t274	-2176
+t275	-2180
+t276	-2184
+t277	-2188
+t278	-2192
+t279	-2196
+t28	-516
+t280	-2200
+t281	-2204
+t282	-2208
+t283	-2212
+t284	-2216
+t285	-2220
+t286	-2224
+t287	-2228
+t288	-2232
+t289	-2236
+t29	-520
+t290	-2240
+t291	-2244
+t292	-2248
+t293	-2252
+t294	-2256
+t295	-2260
+t296	-2264
+t297	-2268
+t298	-2272
+t299	-2276
+t3	-92
+t30	-564
+t300	-2280
+t301	-2284
+t302	-2288
+t303	-2292
+t304	-2296
+t305	-2300
+t306	-2304
+t307	-2308
+t308	-2312
+t309	-2316
+t31	-568
+t310	-2320
+t311	-2324
+t312	-2328
+t313	-2332
+t314	-2336
+t315	-2340
+t316	-2344
+t317	-2348
+t318	-2352
+t319	-2356
+t32	-628
+t320	-2360
+t321	-2364
+t322	-2368
+t323	-2372
+t324	-2376
+t325	-2380
+t326	-2384
+t327	-2388
+t328	-2392
+t329	-2396
+t33	-632
+t330	-2400
+t331	-2404
+t332	-2408
+t333	-2412
+t334	-2416
+t335	-2420
+t336	-2424
+t337	-2428
+t338	-2432
+t339	-2436
+t34	-692
+t340	-2440
+t341	-2444
+t342	-2448
+t343	-2452
+t344	-2456
+t345	-2460
+t346	-2464
+t347	-2468
+t348	-2472
+t349	-2476
+t35	-696
+t350	-2480
+t351	-2484
+t352	-2488
+t353	-2492
+t354	-2496
+t355	-2500
+t356	-2504
+t357	-2508
+t358	-2512
+t359	-2516
+t36	-704
+t360	-2520
+t361	-2524
+t362	-2528
+t363	-2532
+t364	-2536
+t365	-2540
+t366	-2544
+t367	-2548
+t368	-2552
+t369	-2556
+t37	-712
+t38	-720
+t39	-776
+t40	-832
+t41	-888
+t42	-892
+t43	-896
+t44	-900
+t45	-904
+t46	-908
+t47	-912
+t48	-916
+t49	-920
+t50	-924
+t51	-928
+t52	-932
+t53	-936
+t54	-940
+t55	-944
+t56	-948
+t57	-952
+t58	-956
+t59	-960
+t60	-964
+t61	-968
+t62	-972
+t63	-976
+t64	-980
+t65	-984
+t66	-1040
+t67	-1096
+t68	-1152
+t69	-1156
+t70	-1160
+t71	-1164
+t72	-1168
+t73	-1172
+t74	-1176
+t75	-1180
+t76	-1184
+t77	-1188
+t78	-1192
+t79	-1196
+t80	-1200
+t81	-1204
+t82	-1208
+t83	-1212
+t84	-1216
+t85	-1220
+t86	-1224
+t87	-1228
+t88	-1232
+t89	-1236
+t90	-1240
+t91	-1244
+t92	-1248
+t93	-1304
+t94	-1344
+t95	-1348
+t96	-1352
+t97	-1356
+t98	-1360
+t99	-1364
+trans	-460

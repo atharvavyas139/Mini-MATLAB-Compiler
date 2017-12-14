@@ -1,0 +1,262 @@
+Symbol Table: Global                             
+parent:        null
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+printInt        int                                                                         4       0       printInt
+printStr        int                                                                         4       4       printStr
+readInt         int                                                                         4       8       readInt
+main            int                                                                         4       12      main
+
+Symbol Table: printInt                           
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+num             int                                                                         4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: printStr                           
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+c               pointer(char)                                                               4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: readInt                            
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+eP              pointer(int)                                                                4       0       null
+retVal          int                                                                         4       4       null
+
+Symbol Table: main                               
+parent:        Global
+Name            Type                                Initial Value                           Size    Offset  Nested Table
+------------------------------------------------------------------------------------------------------------------------
+retVal          int                                                                         4       0       null
+i               int                                 0                                       4       4       null
+t01             int                                 0                                       4       8       null
+j               int                                 0                                       4       12      null
+t02             int                                 0                                       4       16      null
+temp            int                                                                         4       20      null
+l               int                                                                         4       24      null
+t               int                                                                         4       28      null
+input_mat       matrix(3, 2,double)                                                         56      32      null
+t03             int                                 3                                       4       88      null
+t04             int                                 2                                       4       92      null
+printStr        int                                                                         4       96      null
+t05             pointer(char)                       "we will create a 3*2 matrix rows=3 and cols=2\n"4       100     null
+t06             int                                                                         4       104     null
+t07             pointer(char)                       "Type elements in row major form i.e elements of a particular row first with newline between any two numbers\n:"4       108     null
+t08             int                                                                         4       112     null
+t09             int                                 0                                       4       116     null
+t10             int                                                                         4       120     null
+t11             int                                 3                                       4       124     null
+t12             int                                                                         4       128     null
+t13             int                                 0                                       4       132     null
+t14             int                                                                         4       136     null
+t15             int                                 2                                       4       140     null
+t16             int                                                                         4       144     null
+readInt         int                                                                         4       148     null
+t17             pointer(int)                                                                4       152     null
+t18             int                                                                         4       156     null
+t19             int                                                                         4       160     null
+t20             int                                                                         4       164     null
+t21             int                                                                         4       168     null
+t22             int                                                                         4       172     null
+t23             int                                                                         4       176     null
+t24             int                                                                         4       180     null
+t25             int                                                                         4       184     null
+t26             int                                                                         4       188     null
+t27             pointer(char)                       "The matrix input by user\n"            4       192     null
+t28             int                                                                         4       196     null
+t29             int                                 0                                       4       200     null
+t30             int                                                                         4       204     null
+t31             int                                 3                                       4       208     null
+t32             int                                                                         4       212     null
+t33             pointer(char)                       "\n"                                    4       216     null
+t34             int                                                                         4       220     null
+t35             int                                 0                                       4       224     null
+t36             int                                                                         4       228     null
+t37             int                                 2                                       4       232     null
+t38             int                                                                         4       236     null
+t39             int                                                                         4       240     null
+t40             int                                                                         4       244     null
+t41             int                                                                         4       248     null
+t42             int                                                                         4       252     null
+t43             int                                                                         4       256     null
+t44             int                                                                         4       260     null
+t45             int                                                                         4       264     null
+t46             int                                                                         4       268     null
+t47             int                                                                         4       272     null
+t48             int                                                                         4       276     null
+printInt        int                                                                         4       280     null
+t49             int                                                                         4       284     null
+t50             pointer(char)                       " "                                     4       288     null
+t51             int                                                                         4       292     null
+t52             pointer(char)                       "\n\n"                                  4       296     null
+t53             int                                                                         4       300     null
+t54             int                                 0                                       4       304     null
+
+                        
+quad translation table
+                        
+
+
+
+	1   :	t01 = 0
+	2   :	i = t01
+	3   :	t02 = 0
+	4   :	j = t02
+	5   :	t03 = 3
+	6   :	t04 = 2
+	7   :	t05 = 0
+	8   :	param t05
+	9   :	t06 = call printStr, 1
+	10  :	t07 = 1
+	11  :	param t07
+	12  :	t08 = call printStr, 1
+	13  :	t09 = 0
+	14  :	i = t09
+	15  :	t11 = 3
+	16  :	if i < t11 goto 20
+	17  :	goto 41
+	18  :	i=i + 1
+	19  :	goto 15
+	20  :	t13 = 0
+	21  :	j = t13
+	22  :	t15 = 2
+	23  :	if j < t15 goto 27
+	24  :	goto 18
+	25  :	j=j + 1
+	26  :	goto 22
+	27  :	t17 = &temp
+	28  :	param t17
+	29  :	t18 = call readInt, 1
+	30  :	t19 = 8
+	31  :	t20=i * t19
+	32  :	t21 = 2
+	33  :	t22 = t20
+	34  :	t23=t22 * t21
+	35  :	t24=j * t19
+	36  :	t25=t24 + t23
+	37  :	t26=t25 + t19
+	38  :	input_mat[t26] = temp
+	39  :	goto 25
+	40  :	goto 18
+	41  :	t27 = 2
+	42  :	param t27
+	43  :	t28 = call printStr, 1
+	44  :	t29 = 0
+	45  :	i = t29
+	46  :	t31 = 3
+	47  :	if i < t31 goto 51
+	48  :	goto 78
+	49  :	i=i + 1
+	50  :	goto 46
+	51  :	t33 = 3
+	52  :	param t33
+	53  :	t34 = call printStr, 1
+	54  :	t35 = 0
+	55  :	j = t35
+	56  :	t37 = 2
+	57  :	if j < t37 goto 61
+	58  :	goto 49
+	59  :	j=j + 1
+	60  :	goto 56
+	61  :	t39 = 8
+	62  :	t40=i * t39
+	63  :	t41 = 2
+	64  :	t42 = t40
+	65  :	t43=t42 * t41
+	66  :	t44=j * t39
+	67  :	t45=t44 + t43
+	68  :	t46=t45 + t39
+	69  :	t47 = input_mat[t46]
+	70  :	t = t47
+	71  :	param t
+	72  :	t49 = call printInt, 1
+	73  :	t50 = 4
+	74  :	param t50
+	75  :	t51 = call printStr, 1
+	76  :	goto 59
+	77  :	goto 49
+	78  :	t52 = 5
+	79  :	param t52
+	80  :	t53 = call printStr, 1
+	81  :	t54 = 0
+	82  :	ret t54
+                        
+/////////////activation record:printInt////////////
+num	-20
+retVal	-24
+/////////////activation record:printStr////////////
+c	-20
+retVal	-24
+/////////////activation record:readInt////////////
+eP	-20
+retVal	-24
+/////////////activation record:main////////////
+i	-28
+input_mat	-56
+j	-36
+l	-48
+printInt	-304
+printStr	-120
+readInt	-172
+retVal	-24
+t	-52
+t01	-32
+t02	-40
+t03	-112
+t04	-116
+t05	-124
+t06	-128
+t07	-132
+t08	-136
+t09	-140
+t10	-144
+t11	-148
+t12	-152
+t13	-156
+t14	-160
+t15	-164
+t16	-168
+t17	-176
+t18	-180
+t19	-184
+t20	-188
+t21	-192
+t22	-196
+t23	-200
+t24	-204
+t25	-208
+t26	-212
+t27	-216
+t28	-220
+t29	-224
+t30	-228
+t31	-232
+t32	-236
+t33	-240
+t34	-244
+t35	-248
+t36	-252
+t37	-256
+t38	-260
+t39	-264
+t40	-268
+t41	-272
+t42	-276
+t43	-280
+t44	-284
+t45	-288
+t46	-292
+t47	-296
+t48	-300
+t49	-308
+t50	-312
+t51	-316
+t52	-320
+t53	-324
+t54	-328
+temp	-44
